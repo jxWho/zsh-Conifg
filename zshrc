@@ -303,7 +303,7 @@ alias pacman='sudo pacman-color'
 alias p='sudo pacman-color'
 alias y='yaourt'
 alias h='htop'
-#alias vim='sudo vim'
+alias vim='sudo vim'
  
 #[Esc][h] man 当前命令时，显示简短说明
 alias run-help >&/dev/null && unalias run-help
@@ -402,5 +402,5 @@ check-cmd-self-insert() { zle .self-insert && recolor-cmd }
 # Customize to your needs...
 
 
-export PATH="/Users/god/Developer/tmux-Configuration:$PATH"
+export PATH="$PATH:/Users/god/Developer/tmux-Configuration"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
