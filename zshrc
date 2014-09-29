@@ -402,5 +402,8 @@ check-cmd-self-insert() { zle .self-insert && recolor-cmd }
 # Customize to your needs...
 
 
+export PATH="$HOME/.rvm/gems/ruby-2.0.0-p451/bin:$PATH" # Add RVM to PATH for scripting
 export PATH="$PATH:/Users/god/Developer/tmux-Configuration"
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:/usr/local/bin"
+export PATH="/Users/god/Developer/android-sdk-macosx/platform-tools:$PATH"
+export PATH="/Users/god/Developer/android-sdk-macosx/tools:$PATH"
